@@ -1,0 +1,66 @@
+# Environment & Secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+
+# Cache & Temporary Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+cache/
+.cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Node / Frontend / Build
+node_modules/
+*/node_modules/
+dist/
+frontend/dist/
+frontend/dist-ssr/
+.vite/
+*.tsbuildinfo
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Playwright & Tests
+e2e/test-results/
+e2e/playwright-report/
+e2e/blob-report/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Office Temporary Files
+~$*
+
+# Submission Archives
+*.zip
+*.tar
+*.gz
+NYC_Taxi_NopBai.zip
+
+# Academic Submission Reports & Presentations (Kept locally on machine)
+*.docx
+*.pdf
+*.pptx
+templates/
+
+# Raw Datasets (Recreated/downloaded via scripts/prepare_data.py)
+data/*.csv
+data/raw/
