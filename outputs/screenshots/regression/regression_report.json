@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-11-21T16:55:01.987Z",
+  "browser": "Microsoft Edge",
+  "browserVersion": "158.0.4370.33",
+  "testResults": [],
+  "screenshots": [
+    {
+      "name": "05_new_york_timezone_input.png",
+      "desc": "Nhãn và giờ khởi hành New York"
+    },
+    {
+      "name": "01_predict_offline_fallback.png",
+      "desc": "Dự báo dự phòng khi mất kết nối API"
+    },
+    {
+      "name": "02_routing_offline_error_retry.png",
+      "desc": "Báo lỗi và nút Thử lại khi ngắt mạng tìm đường"
+    },
+    {
+      "name": "03_routing_retry_success.png",
+      "desc": "Nhận kết quả thật sau khi bấm Thử lại"
+    },
+    {
+      "name": "06_routing_state_cleared_on_change.png",
+      "desc": "Trạng thái cũ được xóa sạch khi đổi điểm"
+    },
+    {
+      "name": "04_dispatch_offline_error.png",
+      "desc": "Báo lỗi và nút Thử lại khi mất mạng điều phối"
+    },
+    {
+      "name": "07_dispatch_4_requests_max.png",
+      "desc": "Danh sách 4 yêu cầu (tối đa)"
+    },
+    {
+      "name": "08_dispatch_remove_and_calculate.png",
+      "desc": "Lập lịch sau khi xóa và chỉnh sửa yêu cầu"
+    },
+    {
+      "name": "09_mobile_dynamic_dispatch.png",
+      "desc": "Giao diện mobile với điều phối động"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-11-21T01:38:52.663491",
+  "mode": "quick",
+  "dataset": {
+    "total_samples": 50000,
+    "train_samples": 40000,
+    "val_samples": 10000,
+    "train_val_split": "time-based (80/20)",
+    "train_date_range": [
+      "2016-01-01 00:00:17",
+      "2016-05-23 18:53:01"
+    ],
+    "val_date_range": [
+      "2016-05-23 18:56:56",
+      "2016-06-30 23:59:37"
+    ]
+  },
+  "baseline_median": {
+    "median_train_seconds": 604.0,
+    "mae_seconds": 357.79,
+    "mae_minutes": 5.96,
+    "rmsle": 0.6643
+  },
+  "model": {
+    "name": "HistGradientBoostingRegressor",
+    "mae_seconds": 178.59,
+    "mae_minutes": 2.98,
+    "rmsle": 0.3475
+  },
+  "improvement": {
+    "mae_reduction_seconds": 179.21,
+    "mae_reduction_minutes": 2.99,
+    "mae_improvement_percent": 50.1,
+    "rmsle_improvement": 0.3168
+  },
+  "bounding_box": {
+    "min_lon": -74.05,
+    "max_lon": -73.9,
+    "min_lat": 40.69,
+    "max_lat": 40.88
+  },
+  "feature_columns": [
+    "pickup_longitude",
+    "pickup_latitude",
+    "dropoff_longitude",
+    "dropoff_latitude",
+    "passenger_count",
+    "pickup_hour",
+    "pickup_dayofweek",
+    "pickup_month",
+    "is_weekend",
+    "is_rush_hour",
+    "haversine_distance_km",
+    "manhattan_distance_km",
+    "bearing_degrees",
+    "abs_lat_diff",
+    "abs_lon_diff",
+    "center_latitude",
+    "center_longitude"
+  ]
+}

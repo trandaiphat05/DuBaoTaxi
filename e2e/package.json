@@ -1,0 +1,15 @@
+{
+  "name": "nyc-taxi-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "E2E tests and screenshot capture for NYC Taxi AI App",
+  "scripts": {
+    "test": "playwright test",
+    "test:desktop": "playwright test tests/desktop.spec.ts",
+    "test:mobile": "playwright test tests/mobile.spec.ts",
+    "capture": "node scripts/capture_screenshots.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0"
+  }
+}

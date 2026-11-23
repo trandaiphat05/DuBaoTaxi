@@ -1,7 +1,7 @@
 # NYC Taxi AI Platform: Dự Báo Thời Gian Di Chuyển, Tìm Đường Tối Ưu A* & Điều Phối Ghép Chuyến Taxi Manhattan
 
-> **Đồ Án Môn Học:** Trí Tuệ Nhân Tạo (Artificial Intelligence - CS301 / IT3040)  
-> **Sinh viên thực hiện:** Nguyễn Văn A (MSSV: 21000001) - Lớp: K66-AI-01  
+> **Đồ Án Môn Học:** Trí Tuệ Nhân Tạo (Artificial Intelligence)  
+> **Chủ đề:** Dự báo thời gian di chuyển taxi, định tuyến A* trên bản đồ Manhattan và điều phối ghép chuyến đa khách (DARP)  
 > **Trạng thái:** [✓] Đã nghiệm thu xuất sắc 100% tiêu chí kỹ thuật
 
 ---
@@ -244,21 +244,19 @@ python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --workers 4
 ### Cách 2: Triển khai Đám Mây (Cloud / Docker)
 - **Backend:** Triển khai trên **Render**, **Railway**, hoặc **AWS EC2** thông qua Dockerfile tiêu chuẩn chạy `uvicorn`.
 - **Frontend:** Triển khai tĩnh (Static Hosting) trên **Vercel**, **Cloudflare Pages**, hoặc **Netlify** với lệnh build `npm run build` và thư mục xuất `dist`.
-- Chi tiết cấu hình tham khảo tại: [docs/DEPLOYMENT_AND_TEST_REPORT.md](file:///d:/Code/TriTueNhanTao/docs/DEPLOYMENT_AND_TEST_REPORT.md).
+- Chi tiết cấu hình tham khảo tại: [docs/DEPLOYMENT_AND_TEST_REPORT.md](docs/DEPLOYMENT_AND_TEST_REPORT.md).
 
 ---
 
 ## 📚 Liên Kết Tài Liệu Đồ Án
 
-- 📖 **Đề cương học phần & Câu hỏi vấn đáp chi tiết:** [docs/NYC_Taxi_DeCuong.md](file:///d:/Code/TriTueNhanTao/docs/NYC_Taxi_DeCuong.md)
-- 📋 **Biên bản nghiệm thu kỹ thuật:** [docs/NGHIEM_THU.md](file:///d:/Code/TriTueNhanTao/docs/NGHIEM_THU.md)
-- 📑 **Báo cáo kiểm thử toàn diện giao diện & chức năng:** [docs/BAO_CAO_KIEM_THU_GIAO_DIEN.md](file:///d:/Code/TriTueNhanTao/docs/BAO_CAO_KIEM_THU_GIAO_DIEN.md)
-- 📊 **Sổ tay thực nghiệm Jupyter Notebook:** [notebooks/NYC_Taxi_DuBao_TimDuong.ipynb](file:///d:/Code/TriTueNhanTao/notebooks/NYC_Taxi_DuBao_TimDuong.ipynb)
-- 📽️ **Bài trình bày báo cáo PowerPoint (14 slide):** [NYC_Taxi_TrinhBay.pptx](file:///d:/Code/TriTueNhanTao/NYC_Taxi_TrinhBay.pptx)
-- 📈 **Bảng chỉ số đánh giá mô hình:** [outputs/metrics.json](file:///d:/Code/TriTueNhanTao/outputs/metrics.json)
-- 🖼️ **Thư mục ảnh chụp màn hình kiểm thử:** [outputs/screenshots/](file:///d:/Code/TriTueNhanTao/outputs/screenshots/)
+- 📖 **Đề cương học phần & Câu hỏi vấn đáp chi tiết:** [docs/NYC_Taxi_DeCuong.md](docs/NYC_Taxi_DeCuong.md)
+- 📋 **Biên bản nghiệm thu kỹ thuật:** [docs/NGHIEM_THU.md](docs/NGHIEM_THU.md)
+- 📑 **Báo cáo kiểm thử toàn diện giao diện & chức năng:** [docs/BAO_CAO_KIEM_THU_GIAO_DIEN.md](docs/BAO_CAO_KIEM_THU_GIAO_DIEN.md)
+- 📊 **Sổ tay thực nghiệm Jupyter Notebook:** [notebooks/NYC_Taxi_DuBao_TimDuong.ipynb](notebooks/NYC_Taxi_DuBao_TimDuong.ipynb)
+- 📽️ **Bài trình bày báo cáo PowerPoint (14 slide):** [scripts/populate_presentation.py](scripts/populate_presentation.py) (Tự động sinh PPTX)
+- 📈 **Bảng chỉ số đánh giá mô hình:** [outputs/metrics.json](outputs/metrics.json)
+- 🖼️ **Thư mục ảnh chụp màn hình kiểm thử:** [outputs/screenshots/](outputs/screenshots/)
 
 ---
 *Đồ án môn học Trí Tuệ Nhân Tạo (AI) - Hoàn thành xuất sắc tháng 11/2026.*
-#   D u B a o T a x i  
- 
